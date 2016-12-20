@@ -1,0 +1,7 @@
+package: github.com/andrexus/terraform-provider-arubacloud
+import:
+- package: github.com/hashicorp/terraform
+  subpackages:
+  - helper/schema
+  - plugin
+  - terraform
