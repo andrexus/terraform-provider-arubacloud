@@ -121,6 +121,19 @@ All properties are computed
 * `end_range_ip_v6`
 * `server_id`
 
+#### `arubacloud_vlan`
+
+```
+resource "arubacloud_vlan" "vlan-example" {
+  name = "vlan-1"
+}
+```
+##### Argument Reference
+
+All properties are computed
+
+* `name` (Required) Name of the VLAN
+
 ### More examples
 
 Purchase a new IP and assign it to a PRO server:
